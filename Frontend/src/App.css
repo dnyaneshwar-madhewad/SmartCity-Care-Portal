@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hospitaldash{
+  background-image: url("https://thumbs.dreamstime.com/b/medical-clinic-backdrop-banner-hospital-healthcare-conceptual-banner-background-87324356.jpg");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.userdash{
+  background-image: url("https://gdatatechnologies.com/img/content/services/hms-banner.jpg");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.admindash{
+  background-image: url("https://www.aimprosoft.com/wp-content/uploads/2020/06/How-to-Create-a-Hospital-Management-Software.png");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.signup{
+  background-image: url("https://www.med-technews.com/downloads/6942/download/digital.png?cb=d7dd1f5b0450b066d0dc87cbefe4550c&w=640");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.login{
+  background-image: url("http://elixiraid.com/wp-content/uploads/2016/09/Hospital-Management-System-1.png");
+         margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.homeban{
+   background-image: url("components/images/2.jpg");
+  margin-left: 0%;
+         margin-top: 0%;
+         width : 100%;
+        min-height: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;      
+}
+
+.banner {
+  margin: 0px 0px 0px 0px;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ban-img {
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
